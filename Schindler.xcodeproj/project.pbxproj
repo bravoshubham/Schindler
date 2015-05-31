@@ -7,13 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0C41301B16E0780059CC02 /* tesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C412F1B16E0780059CC02 /* tesView.xib */; };
+		2A0C41331B16E0F80059CC02 /* tesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C41321B16E0F80059CC02 /* tesView.m */; };
+		2A0C41491B173ED80059CC02 /* Schindler3300APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C41481B173ED80059CC02 /* Schindler3300APViewController.m */; };
 		2A31AFB71B149E5900846C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31AFB61B149E5900846C94 /* main.m */; };
 		2A31AFBA1B149E5900846C94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31AFB91B149E5900846C94 /* AppDelegate.m */; };
-		2A31AFBD1B149E5900846C94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31AFBC1B149E5900846C94 /* ViewController.m */; };
+		2A31AFBD1B149E5900846C94 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31AFBC1B149E5900846C94 /* HomeViewController.m */; };
 		2A31AFC01B149E5900846C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFBE1B149E5900846C94 /* Main.storyboard */; };
 		2A31AFC21B149E5900846C94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFC11B149E5900846C94 /* Images.xcassets */; };
-		2A31AFC51B149E5900846C94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFC31B149E5900846C94 /* LaunchScreen.xib */; };
 		2A31AFD11B149E5A00846C94 /* SchindlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31AFD01B149E5A00846C94 /* SchindlerTests.m */; };
+		2A31B00A1B149EA300846C94 /* Escalators-&-moving-walk-.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFDC1B149EA300846C94 /* Escalators-&-moving-walk-.png */; };
+		2A31B00B1B149EA300846C94 /* glass_city_v6_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFDD1B149EA300846C94 /* glass_city_v6_.png */; };
+		2A31B00C1B149EA300846C94 /* Green-technology_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFDE1B149EA300846C94 /* Green-technology_.png */; };
+		2A31B00D1B149EA300846C94 /* PORT-technology_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFDF1B149EA300846C94 /* PORT-technology_.png */; };
+		2A31B00E1B149EA300846C94 /* Schindler-3300-AP_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE01B149EA300846C94 /* Schindler-3300-AP_.png */; };
+		2A31B00F1B149EA300846C94 /* Schindler-5500_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE11B149EA300846C94 /* Schindler-5500_.png */; };
+		2A31B0101B149EA300846C94 /* Schindler-7000_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE21B149EA300846C94 /* Schindler-7000_.png */; };
+		2A31B0111B149EA300846C94 /* blackbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE41B149EA300846C94 /* blackbg.png */; };
+		2A31B0121B149EA300846C94 /* Customer-presentations.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE51B149EA300846C94 /* Customer-presentations.png */; };
+		2A31B0131B149EA300846C94 /* Reference-projects.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE61B149EA300846C94 /* Reference-projects.png */; };
+		2A31B0141B149EA300846C94 /* Related-App.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE71B149EA300846C94 /* Related-App.png */; };
+		2A31B0151B149EA300846C94 /* videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFE81B149EA300846C94 /* videos.png */; };
+		2A31B0161B149EA300846C94 /* Layer-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFEA1B149EA300846C94 /* Layer-1.png */; };
+		2A31B0171B149EA300846C94 /* Layer-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFEB1B149EA300846C94 /* Layer-2.png */; };
+		2A31B0181B149EA300846C94 /* Layer-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFEC1B149EA300846C94 /* Layer-3.png */; };
+		2A31B0191B149EA300846C94 /* Layer-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFED1B149EA300846C94 /* Layer-4.png */; };
+		2A31B01A1B149EA300846C94 /* Layer-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFEE1B149EA300846C94 /* Layer-5.png */; };
+		2A31B01B1B149EA300846C94 /* Layer-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFEF1B149EA300846C94 /* Layer-6.png */; };
+		2A31B01C1B149EA300846C94 /* About-Schindler.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF11B149EA300846C94 /* About-Schindler.png */; };
+		2A31B01D1B149EA300846C94 /* Brochures-&-factsheets.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF21B149EA300846C94 /* Brochures-&-factsheets.png */; };
+		2A31B01E1B149EA300846C94 /* Escalators-&-Moving-walks.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF31B149EA300846C94 /* Escalators-&-Moving-walks.png */; };
+		2A31B01F1B149EA300846C94 /* Green-Technology.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF41B149EA300846C94 /* Green-Technology.png */; };
+		2A31B0201B149EA300846C94 /* Maintenance.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF51B149EA300846C94 /* Maintenance.png */; };
+		2A31B0211B149EA300846C94 /* Modernization.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF61B149EA300846C94 /* Modernization.png */; };
+		2A31B0221B149EA300846C94 /* My-Favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF71B149EA300846C94 /* My-Favourite.png */; };
+		2A31B0231B149EA300846C94 /* PORT-Technology.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF81B149EA300846C94 /* PORT-Technology.png */; };
+		2A31B0241B149EA300846C94 /* Schindler-3300-AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFF91B149EA300846C94 /* Schindler-3300-AP.png */; };
+		2A31B0251B149EA300846C94 /* Schindler-5500.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFFA1B149EA300846C94 /* Schindler-5500.png */; };
+		2A31B0261B149EA300846C94 /* Schindler-7000.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFFB1B149EA300846C94 /* Schindler-7000.png */; };
+		2A31B0271B149EA300846C94 /* Schindler-Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFFC1B149EA300846C94 /* Schindler-Apps.png */; };
+		2A31B0281B149EA300846C94 /* Videoss.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFFD1B149EA300846C94 /* Videoss.png */; };
+		2A31B0291B149EA300846C94 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31AFFF1B149EA300846C94 /* Back.png */; };
+		2A31B02A1B149EA300846C94 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0001B149EA300846C94 /* bar.png */; };
+		2A31B02B1B149EA300846C94 /* Customer-presentations-.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0011B149EA300846C94 /* Customer-presentations-.png */; };
+		2A31B02C1B149EA300846C94 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0021B149EA300846C94 /* home.png */; };
+		2A31B02D1B149EA300846C94 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0031B149EA300846C94 /* menu.png */; };
+		2A31B02E1B149EA300846C94 /* Reference-projects-.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0041B149EA300846C94 /* Reference-projects-.png */; };
+		2A31B02F1B149EA300846C94 /* Related-App_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0051B149EA300846C94 /* Related-App_top.png */; };
+		2A31B0301B149EA300846C94 /* Schindler_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0061B149EA300846C94 /* Schindler_logo.png */; };
+		2A31B0311B149EA300846C94 /* side_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0071B149EA300846C94 /* side_menu.png */; };
+		2A31B0321B149EA300846C94 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0081B149EA300846C94 /* star.png */; };
+		2A31B0331B149EA300846C94 /* videos_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31B0091B149EA300846C94 /* videos_top.png */; };
+		2A40B1391B197D2300366F91 /* Schindler5500ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B1381B197D2300366F91 /* Schindler5500ViewController.m */; };
+		2A40B13C1B1A312500366F91 /* Schindler7000ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B13B1B1A312500366F91 /* Schindler7000ViewController.m */; };
+		2A40B13F1B1A503400366F91 /* EscalatorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B13E1B1A503400366F91 /* EscalatorsViewController.m */; };
+		2A40B1421B1A558000366F91 /* PortTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B1411B1A558000366F91 /* PortTechViewController.m */; };
+		2A40B1451B1A563100366F91 /* GreenTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B1441B1A563100366F91 /* GreenTechViewController.m */; };
+		2A40B1481B1A579D00366F91 /* MaintenanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B1471B1A579D00366F91 /* MaintenanceViewController.m */; };
+		2A40B14B1B1ABD4400366F91 /* ModernizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B14A1B1ABD4400366F91 /* ModernizationViewController.m */; };
+		2A40B14E1B1ABEEF00366F91 /* MyFavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B14D1B1ABEEF00366F91 /* MyFavouritesViewController.m */; };
+		2A40B1511B1AC34B00366F91 /* ReferenceProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B1501B1AC34B00366F91 /* ReferenceProjectsViewController.m */; };
+		2A4971F71B14D11100BFFF61 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4971F61B14D11100BFFF61 /* UIImage+ImageEffects.m */; };
+		2A4971F91B14D2D200BFFF61 /* black_sq.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4971F81B14D2D200BFFF61 /* black_sq.png */; };
+		2A4971FC1B15022100BFFF61 /* FrutigerCnd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4971FB1B15011400BFFF61 /* FrutigerCnd-Bold.ttf */; };
+		2A4971FE1B1503A000BFFF61 /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4971FD1B1503A000BFFF61 /* HomeTableCell.xib */; };
+		2A4972011B15043600BFFF61 /* HomeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4972001B15043600BFFF61 /* HomeTableCell.m */; };
+		2A4972041B1586DD00BFFF61 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4972031B1586DD00BFFF61 /* MenuView.xib */; };
+		2A49720A1B15907B00BFFF61 /* videoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4972081B15907B00BFFF61 /* videoPlayViewController.m */; };
+		2A49720D1B1591A000BFFF61 /* port_logo_3_sec.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A49720C1B15917C00BFFF61 /* port_logo_3_sec.mp4 */; };
+		2A55888F1B160F60009539AA /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55888E1B160F60009539AA /* MenuView.m */; };
+		2A611FED1B15AAD00048E0A4 /* AboutSchindlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A611FEC1B15AAD00048E0A4 /* AboutSchindlerViewController.m */; };
+		2AE196EE1B179F7500A892A1 /* pdf_sample_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE196EB1B179F7500A892A1 /* pdf_sample_icon1.png */; };
+		2AE196EF1B179F7500A892A1 /* star_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE196EC1B179F7500A892A1 /* star_fill.png */; };
+		2AE196F01B179F7500A892A1 /* star_unfill.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE196ED1B179F7500A892A1 /* star_unfill.png */; };
+		2AE196F31B182BE700A892A1 /* PageItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE196F21B182BE700A892A1 /* PageItemController.m */; };
+		2AE196F51B193F5400A892A1 /* DNA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE196F41B193F5400A892A1 /* DNA.pdf */; };
+		3FBE5C5B789453FD8B14ED86 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA608B31DCC60A3DDAF6DB1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +96,107 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0C412F1B16E0780059CC02 /* tesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tesView.xib; sourceTree = "<group>"; };
+		2A0C41311B16E0F80059CC02 /* tesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesView.h; sourceTree = "<group>"; };
+		2A0C41321B16E0F80059CC02 /* tesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tesView.m; sourceTree = "<group>"; };
+		2A0C41471B173ED80059CC02 /* Schindler3300APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schindler3300APViewController.h; sourceTree = "<group>"; };
+		2A0C41481B173ED80059CC02 /* Schindler3300APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schindler3300APViewController.m; sourceTree = "<group>"; };
 		2A31AFB11B149E5900846C94 /* Schindler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schindler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A31AFB51B149E5900846C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A31AFB61B149E5900846C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A31AFB81B149E5900846C94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A31AFB91B149E5900846C94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A31AFBB1B149E5900846C94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A31AFBC1B149E5900846C94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A31AFBB1B149E5900846C94 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2A31AFBC1B149E5900846C94 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		2A31AFBF1B149E5900846C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A31AFC11B149E5900846C94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2A31AFC41B149E5900846C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2A31AFCA1B149E5A00846C94 /* SchindlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchindlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A31AFCF1B149E5A00846C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A31AFD01B149E5A00846C94 /* SchindlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchindlerTests.m; sourceTree = "<group>"; };
+		2A31AFDC1B149EA300846C94 /* Escalators-&-moving-walk-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Escalators-&-moving-walk-.png"; sourceTree = "<group>"; };
+		2A31AFDD1B149EA300846C94 /* glass_city_v6_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass_city_v6_.png; sourceTree = "<group>"; };
+		2A31AFDE1B149EA300846C94 /* Green-technology_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green-technology_.png"; sourceTree = "<group>"; };
+		2A31AFDF1B149EA300846C94 /* PORT-technology_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PORT-technology_.png"; sourceTree = "<group>"; };
+		2A31AFE01B149EA300846C94 /* Schindler-3300-AP_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-3300-AP_.png"; sourceTree = "<group>"; };
+		2A31AFE11B149EA300846C94 /* Schindler-5500_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-5500_.png"; sourceTree = "<group>"; };
+		2A31AFE21B149EA300846C94 /* Schindler-7000_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-7000_.png"; sourceTree = "<group>"; };
+		2A31AFE41B149EA300846C94 /* blackbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbg.png; sourceTree = "<group>"; };
+		2A31AFE51B149EA300846C94 /* Customer-presentations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Customer-presentations.png"; sourceTree = "<group>"; };
+		2A31AFE61B149EA300846C94 /* Reference-projects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reference-projects.png"; sourceTree = "<group>"; };
+		2A31AFE71B149EA300846C94 /* Related-App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Related-App.png"; sourceTree = "<group>"; };
+		2A31AFE81B149EA300846C94 /* videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videos.png; sourceTree = "<group>"; };
+		2A31AFEA1B149EA300846C94 /* Layer-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer-1.png"; sourceTree = "<group>"; };
+		2A31AFEB1B149EA300846C94 /* Layer-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer-2.png"; sourceTree = "<group>"; };
+		2A31AFEC1B149EA300846C94 /* Layer-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer-3.png"; sourceTree = "<group>"; };
+		2A31AFED1B149EA300846C94 /* Layer-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer-4.png"; sourceTree = "<group>"; };
+		2A31AFEE1B149EA300846C94 /* Layer-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer-5.png"; sourceTree = "<group>"; };
+		2A31AFEF1B149EA300846C94 /* Layer-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer-6.png"; sourceTree = "<group>"; };
+		2A31AFF11B149EA300846C94 /* About-Schindler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About-Schindler.png"; sourceTree = "<group>"; };
+		2A31AFF21B149EA300846C94 /* Brochures-&-factsheets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brochures-&-factsheets.png"; sourceTree = "<group>"; };
+		2A31AFF31B149EA300846C94 /* Escalators-&-Moving-walks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Escalators-&-Moving-walks.png"; sourceTree = "<group>"; };
+		2A31AFF41B149EA300846C94 /* Green-Technology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green-Technology.png"; sourceTree = "<group>"; };
+		2A31AFF51B149EA300846C94 /* Maintenance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maintenance.png; sourceTree = "<group>"; };
+		2A31AFF61B149EA300846C94 /* Modernization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Modernization.png; sourceTree = "<group>"; };
+		2A31AFF71B149EA300846C94 /* My-Favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My-Favourite.png"; sourceTree = "<group>"; };
+		2A31AFF81B149EA300846C94 /* PORT-Technology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PORT-Technology.png"; sourceTree = "<group>"; };
+		2A31AFF91B149EA300846C94 /* Schindler-3300-AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-3300-AP.png"; sourceTree = "<group>"; };
+		2A31AFFA1B149EA300846C94 /* Schindler-5500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-5500.png"; sourceTree = "<group>"; };
+		2A31AFFB1B149EA300846C94 /* Schindler-7000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-7000.png"; sourceTree = "<group>"; };
+		2A31AFFC1B149EA300846C94 /* Schindler-Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schindler-Apps.png"; sourceTree = "<group>"; };
+		2A31AFFD1B149EA300846C94 /* Videoss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Videoss.png; sourceTree = "<group>"; };
+		2A31AFFF1B149EA300846C94 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		2A31B0001B149EA300846C94 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		2A31B0011B149EA300846C94 /* Customer-presentations-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Customer-presentations-.png"; sourceTree = "<group>"; };
+		2A31B0021B149EA300846C94 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		2A31B0031B149EA300846C94 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		2A31B0041B149EA300846C94 /* Reference-projects-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reference-projects-.png"; sourceTree = "<group>"; };
+		2A31B0051B149EA300846C94 /* Related-App_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Related-App_top.png"; sourceTree = "<group>"; };
+		2A31B0061B149EA300846C94 /* Schindler_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schindler_logo.png; sourceTree = "<group>"; };
+		2A31B0071B149EA300846C94 /* side_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side_menu.png; sourceTree = "<group>"; };
+		2A31B0081B149EA300846C94 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		2A31B0091B149EA300846C94 /* videos_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videos_top.png; sourceTree = "<group>"; };
+		2A40B1371B197D2300366F91 /* Schindler5500ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schindler5500ViewController.h; sourceTree = "<group>"; };
+		2A40B1381B197D2300366F91 /* Schindler5500ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schindler5500ViewController.m; sourceTree = "<group>"; };
+		2A40B13A1B1A312500366F91 /* Schindler7000ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schindler7000ViewController.h; sourceTree = "<group>"; };
+		2A40B13B1B1A312500366F91 /* Schindler7000ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schindler7000ViewController.m; sourceTree = "<group>"; };
+		2A40B13D1B1A503400366F91 /* EscalatorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EscalatorsViewController.h; sourceTree = "<group>"; };
+		2A40B13E1B1A503400366F91 /* EscalatorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EscalatorsViewController.m; sourceTree = "<group>"; };
+		2A40B1401B1A558000366F91 /* PortTechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortTechViewController.h; sourceTree = "<group>"; };
+		2A40B1411B1A558000366F91 /* PortTechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortTechViewController.m; sourceTree = "<group>"; };
+		2A40B1431B1A563100366F91 /* GreenTechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenTechViewController.h; sourceTree = "<group>"; };
+		2A40B1441B1A563100366F91 /* GreenTechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenTechViewController.m; sourceTree = "<group>"; };
+		2A40B1461B1A579D00366F91 /* MaintenanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaintenanceViewController.h; sourceTree = "<group>"; };
+		2A40B1471B1A579D00366F91 /* MaintenanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaintenanceViewController.m; sourceTree = "<group>"; };
+		2A40B1491B1ABD4400366F91 /* ModernizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModernizationViewController.h; sourceTree = "<group>"; };
+		2A40B14A1B1ABD4400366F91 /* ModernizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModernizationViewController.m; sourceTree = "<group>"; };
+		2A40B14C1B1ABEEF00366F91 /* MyFavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFavouritesViewController.h; sourceTree = "<group>"; };
+		2A40B14D1B1ABEEF00366F91 /* MyFavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFavouritesViewController.m; sourceTree = "<group>"; };
+		2A40B14F1B1AC34B00366F91 /* ReferenceProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceProjectsViewController.h; sourceTree = "<group>"; };
+		2A40B1501B1AC34B00366F91 /* ReferenceProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceProjectsViewController.m; sourceTree = "<group>"; };
+		2A4971F51B14D11100BFFF61 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		2A4971F61B14D11100BFFF61 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		2A4971F81B14D2D200BFFF61 /* black_sq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_sq.png; sourceTree = "<group>"; };
+		2A4971FB1B15011400BFFF61 /* FrutigerCnd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrutigerCnd-Bold.ttf"; sourceTree = "<group>"; };
+		2A4971FD1B1503A000BFFF61 /* HomeTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeTableCell.xib; path = ../HomeTableCell.xib; sourceTree = "<group>"; };
+		2A4971FF1B15043600BFFF61 /* HomeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableCell.h; sourceTree = "<group>"; };
+		2A4972001B15043600BFFF61 /* HomeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableCell.m; sourceTree = "<group>"; };
+		2A4972031B1586DD00BFFF61 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		2A4972071B15907B00BFFF61 /* videoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoPlayViewController.h; sourceTree = "<group>"; };
+		2A4972081B15907B00BFFF61 /* videoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoPlayViewController.m; sourceTree = "<group>"; };
+		2A49720C1B15917C00BFFF61 /* port_logo_3_sec.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = port_logo_3_sec.mp4; sourceTree = "<group>"; };
+		2A55888D1B160F60009539AA /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		2A55888E1B160F60009539AA /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		2A611FEB1B15AAD00048E0A4 /* AboutSchindlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutSchindlerViewController.h; sourceTree = "<group>"; };
+		2A611FEC1B15AAD00048E0A4 /* AboutSchindlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutSchindlerViewController.m; sourceTree = "<group>"; };
+		2AE196EB1B179F7500A892A1 /* pdf_sample_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf_sample_icon1.png; sourceTree = "<group>"; };
+		2AE196EC1B179F7500A892A1 /* star_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_fill.png; sourceTree = "<group>"; };
+		2AE196ED1B179F7500A892A1 /* star_unfill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_unfill.png; sourceTree = "<group>"; };
+		2AE196F11B182BE700A892A1 /* PageItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageItemController.h; sourceTree = "<group>"; };
+		2AE196F21B182BE700A892A1 /* PageItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageItemController.m; sourceTree = "<group>"; };
+		2AE196F41B193F5400A892A1 /* DNA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DNA.pdf; sourceTree = "<group>"; };
+		96B4DA3D8238906B926CFA8B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BD49ECBAE3982FE393E387CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CAA608B31DCC60A3DDAF6DB1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBE5C5B789453FD8B14ED86 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +224,8 @@
 				2A31AFB31B149E5900846C94 /* Schindler */,
 				2A31AFCD1B149E5A00846C94 /* SchindlerTests */,
 				2A31AFB21B149E5900846C94 /* Products */,
+				71C964F6A687FBE53608575B /* Pods */,
+				DC6D82104EC13BE9B8682B95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +241,20 @@
 		2A31AFB31B149E5900846C94 /* Schindler */ = {
 			isa = PBXGroup;
 			children = (
+				2AE196EA1B17423D00A892A1 /* DetailViews */,
+				2A4972051B15904600BFFF61 /* Video-SplashScreen */,
+				2A4972021B1504AC00BFFF61 /* Home Screen */,
+				2A611FEA1B15AA8B0048E0A4 /* About-Schindler Screen */,
+				2A4971FA1B15010500BFFF61 /* Resources */,
+				2A4971F41B14D0FE00BFFF61 /* Libraries */,
+				2A31AFDA1B149E8800846C94 /* images */,
 				2A31AFB81B149E5900846C94 /* AppDelegate.h */,
 				2A31AFB91B149E5900846C94 /* AppDelegate.m */,
-				2A31AFBB1B149E5900846C94 /* ViewController.h */,
-				2A31AFBC1B149E5900846C94 /* ViewController.m */,
 				2A31AFBE1B149E5900846C94 /* Main.storyboard */,
 				2A31AFC11B149E5900846C94 /* Images.xcassets */,
-				2A31AFC31B149E5900846C94 /* LaunchScreen.xib */,
 				2A31AFB41B149E5900846C94 /* Supporting Files */,
+				2AE196F11B182BE700A892A1 /* PageItemController.h */,
+				2AE196F21B182BE700A892A1 /* PageItemController.m */,
 			);
 			path = Schindler;
 			sourceTree = "<group>";
@@ -119,6 +285,206 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2A31AFDA1B149E8800846C94 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2AE196EB1B179F7500A892A1 /* pdf_sample_icon1.png */,
+				2AE196EC1B179F7500A892A1 /* star_fill.png */,
+				2AE196ED1B179F7500A892A1 /* star_unfill.png */,
+				2A4971F81B14D2D200BFFF61 /* black_sq.png */,
+				2A31AFDB1B149EA300846C94 /* first page */,
+				2A31AFE31B149EA300846C94 /* footer menu */,
+				2A31AFE91B149EA300846C94 /* Presentation_btn */,
+				2A31AFF01B149EA300846C94 /* section_bg */,
+				2A31AFFE1B149EA300846C94 /* topmenu */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		2A31AFDB1B149EA300846C94 /* first page */ = {
+			isa = PBXGroup;
+			children = (
+				2A31AFDC1B149EA300846C94 /* Escalators-&-moving-walk-.png */,
+				2A31AFDD1B149EA300846C94 /* glass_city_v6_.png */,
+				2A31AFDE1B149EA300846C94 /* Green-technology_.png */,
+				2A31AFDF1B149EA300846C94 /* PORT-technology_.png */,
+				2A31AFE01B149EA300846C94 /* Schindler-3300-AP_.png */,
+				2A31AFE11B149EA300846C94 /* Schindler-5500_.png */,
+				2A31AFE21B149EA300846C94 /* Schindler-7000_.png */,
+			);
+			path = "first page";
+			sourceTree = "<group>";
+		};
+		2A31AFE31B149EA300846C94 /* footer menu */ = {
+			isa = PBXGroup;
+			children = (
+				2A31AFE41B149EA300846C94 /* blackbg.png */,
+				2A31AFE51B149EA300846C94 /* Customer-presentations.png */,
+				2A31AFE61B149EA300846C94 /* Reference-projects.png */,
+				2A31AFE71B149EA300846C94 /* Related-App.png */,
+				2A31AFE81B149EA300846C94 /* videos.png */,
+			);
+			path = "footer menu";
+			sourceTree = "<group>";
+		};
+		2A31AFE91B149EA300846C94 /* Presentation_btn */ = {
+			isa = PBXGroup;
+			children = (
+				2A31AFEA1B149EA300846C94 /* Layer-1.png */,
+				2A31AFEB1B149EA300846C94 /* Layer-2.png */,
+				2A31AFEC1B149EA300846C94 /* Layer-3.png */,
+				2A31AFED1B149EA300846C94 /* Layer-4.png */,
+				2A31AFEE1B149EA300846C94 /* Layer-5.png */,
+				2A31AFEF1B149EA300846C94 /* Layer-6.png */,
+			);
+			path = Presentation_btn;
+			sourceTree = "<group>";
+		};
+		2A31AFF01B149EA300846C94 /* section_bg */ = {
+			isa = PBXGroup;
+			children = (
+				2A31AFF11B149EA300846C94 /* About-Schindler.png */,
+				2A31AFF21B149EA300846C94 /* Brochures-&-factsheets.png */,
+				2A31AFF31B149EA300846C94 /* Escalators-&-Moving-walks.png */,
+				2A31AFF41B149EA300846C94 /* Green-Technology.png */,
+				2A31AFF51B149EA300846C94 /* Maintenance.png */,
+				2A31AFF61B149EA300846C94 /* Modernization.png */,
+				2A31AFF71B149EA300846C94 /* My-Favourite.png */,
+				2A31AFF81B149EA300846C94 /* PORT-Technology.png */,
+				2A31AFF91B149EA300846C94 /* Schindler-3300-AP.png */,
+				2A31AFFA1B149EA300846C94 /* Schindler-5500.png */,
+				2A31AFFB1B149EA300846C94 /* Schindler-7000.png */,
+				2A31AFFC1B149EA300846C94 /* Schindler-Apps.png */,
+				2A31AFFD1B149EA300846C94 /* Videoss.png */,
+			);
+			path = section_bg;
+			sourceTree = "<group>";
+		};
+		2A31AFFE1B149EA300846C94 /* topmenu */ = {
+			isa = PBXGroup;
+			children = (
+				2A31AFFF1B149EA300846C94 /* Back.png */,
+				2A31B0001B149EA300846C94 /* bar.png */,
+				2A31B0011B149EA300846C94 /* Customer-presentations-.png */,
+				2A31B0021B149EA300846C94 /* home.png */,
+				2A31B0031B149EA300846C94 /* menu.png */,
+				2A31B0041B149EA300846C94 /* Reference-projects-.png */,
+				2A31B0051B149EA300846C94 /* Related-App_top.png */,
+				2A31B0061B149EA300846C94 /* Schindler_logo.png */,
+				2A31B0071B149EA300846C94 /* side_menu.png */,
+				2A31B0081B149EA300846C94 /* star.png */,
+				2A31B0091B149EA300846C94 /* videos_top.png */,
+			);
+			path = topmenu;
+			sourceTree = "<group>";
+		};
+		2A4971F41B14D0FE00BFFF61 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2A4971F51B14D11100BFFF61 /* UIImage+ImageEffects.h */,
+				2A4971F61B14D11100BFFF61 /* UIImage+ImageEffects.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		2A4971FA1B15010500BFFF61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A49720C1B15917C00BFFF61 /* port_logo_3_sec.mp4 */,
+				2A4971FB1B15011400BFFF61 /* FrutigerCnd-Bold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A4972021B1504AC00BFFF61 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2A31AFBB1B149E5900846C94 /* HomeViewController.h */,
+				2A31AFBC1B149E5900846C94 /* HomeViewController.m */,
+				2A4971FF1B15043600BFFF61 /* HomeTableCell.h */,
+				2A4972001B15043600BFFF61 /* HomeTableCell.m */,
+				2A4971FD1B1503A000BFFF61 /* HomeTableCell.xib */,
+				2A4972031B1586DD00BFFF61 /* MenuView.xib */,
+				2A55888D1B160F60009539AA /* MenuView.h */,
+				2A55888E1B160F60009539AA /* MenuView.m */,
+				2A0C412F1B16E0780059CC02 /* tesView.xib */,
+				2A0C41311B16E0F80059CC02 /* tesView.h */,
+				2A0C41321B16E0F80059CC02 /* tesView.m */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		2A4972051B15904600BFFF61 /* Video-SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A4972061B15907B00BFFF61 /* videoPlayViewController */,
+			);
+			name = "Video-SplashScreen";
+			sourceTree = "<group>";
+		};
+		2A4972061B15907B00BFFF61 /* videoPlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A4972071B15907B00BFFF61 /* videoPlayViewController.h */,
+				2A4972081B15907B00BFFF61 /* videoPlayViewController.m */,
+			);
+			path = videoPlayViewController;
+			sourceTree = "<group>";
+		};
+		2A611FEA1B15AA8B0048E0A4 /* About-Schindler Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2A611FEB1B15AAD00048E0A4 /* AboutSchindlerViewController.h */,
+				2A611FEC1B15AAD00048E0A4 /* AboutSchindlerViewController.m */,
+			);
+			name = "About-Schindler Screen";
+			sourceTree = "<group>";
+		};
+		2AE196EA1B17423D00A892A1 /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				2AE196F41B193F5400A892A1 /* DNA.pdf */,
+				2A0C41471B173ED80059CC02 /* Schindler3300APViewController.h */,
+				2A0C41481B173ED80059CC02 /* Schindler3300APViewController.m */,
+				2A40B1371B197D2300366F91 /* Schindler5500ViewController.h */,
+				2A40B1381B197D2300366F91 /* Schindler5500ViewController.m */,
+				2A40B13A1B1A312500366F91 /* Schindler7000ViewController.h */,
+				2A40B13B1B1A312500366F91 /* Schindler7000ViewController.m */,
+				2A40B13D1B1A503400366F91 /* EscalatorsViewController.h */,
+				2A40B13E1B1A503400366F91 /* EscalatorsViewController.m */,
+				2A40B1401B1A558000366F91 /* PortTechViewController.h */,
+				2A40B1411B1A558000366F91 /* PortTechViewController.m */,
+				2A40B1431B1A563100366F91 /* GreenTechViewController.h */,
+				2A40B1441B1A563100366F91 /* GreenTechViewController.m */,
+				2A40B1461B1A579D00366F91 /* MaintenanceViewController.h */,
+				2A40B1471B1A579D00366F91 /* MaintenanceViewController.m */,
+				2A40B1491B1ABD4400366F91 /* ModernizationViewController.h */,
+				2A40B14A1B1ABD4400366F91 /* ModernizationViewController.m */,
+				2A40B14C1B1ABEEF00366F91 /* MyFavouritesViewController.h */,
+				2A40B14D1B1ABEEF00366F91 /* MyFavouritesViewController.m */,
+				2A40B14F1B1AC34B00366F91 /* ReferenceProjectsViewController.h */,
+				2A40B1501B1AC34B00366F91 /* ReferenceProjectsViewController.m */,
+			);
+			name = DetailViews;
+			sourceTree = "<group>";
+		};
+		71C964F6A687FBE53608575B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96B4DA3D8238906B926CFA8B /* Pods.debug.xcconfig */,
+				BD49ECBAE3982FE393E387CB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC6D82104EC13BE9B8682B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAA608B31DCC60A3DDAF6DB1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +492,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A31AFD41B149E5A00846C94 /* Build configuration list for PBXNativeTarget "Schindler" */;
 			buildPhases = (
+				36C2F96AFAFC9E1B8489BC06 /* Check Pods Manifest.lock */,
 				2A31AFAD1B149E5900846C94 /* Sources */,
 				2A31AFAE1B149E5900846C94 /* Frameworks */,
 				2A31AFAF1B149E5900846C94 /* Resources */,
+				EFC8DDA265265C9DFB9E2B08 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +567,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A49720D1B1591A000BFFF61 /* port_logo_3_sec.mp4 in Resources */,
+				2A4971FC1B15022100BFFF61 /* FrutigerCnd-Bold.ttf in Resources */,
+				2A31B01D1B149EA300846C94 /* Brochures-&-factsheets.png in Resources */,
+				2A31B0301B149EA300846C94 /* Schindler_logo.png in Resources */,
+				2A4972041B1586DD00BFFF61 /* MenuView.xib in Resources */,
 				2A31AFC01B149E5900846C94 /* Main.storyboard in Resources */,
-				2A31AFC51B149E5900846C94 /* LaunchScreen.xib in Resources */,
+				2A31B00A1B149EA300846C94 /* Escalators-&-moving-walk-.png in Resources */,
+				2A31B00D1B149EA300846C94 /* PORT-technology_.png in Resources */,
+				2A31B01C1B149EA300846C94 /* About-Schindler.png in Resources */,
+				2A31B02B1B149EA300846C94 /* Customer-presentations-.png in Resources */,
+				2A31B00F1B149EA300846C94 /* Schindler-5500_.png in Resources */,
+				2A31B0321B149EA300846C94 /* star.png in Resources */,
+				2A31B0281B149EA300846C94 /* Videoss.png in Resources */,
+				2A31B00C1B149EA300846C94 /* Green-technology_.png in Resources */,
+				2A31B00E1B149EA300846C94 /* Schindler-3300-AP_.png in Resources */,
+				2A31B01F1B149EA300846C94 /* Green-Technology.png in Resources */,
+				2A31B02C1B149EA300846C94 /* home.png in Resources */,
+				2A31B0211B149EA300846C94 /* Modernization.png in Resources */,
+				2AE196F51B193F5400A892A1 /* DNA.pdf in Resources */,
+				2AE196EE1B179F7500A892A1 /* pdf_sample_icon1.png in Resources */,
+				2A31B0111B149EA300846C94 /* blackbg.png in Resources */,
+				2A31B0131B149EA300846C94 /* Reference-projects.png in Resources */,
+				2A31B0241B149EA300846C94 /* Schindler-3300-AP.png in Resources */,
+				2A31B01A1B149EA300846C94 /* Layer-5.png in Resources */,
+				2A31B0251B149EA300846C94 /* Schindler-5500.png in Resources */,
+				2A31B0201B149EA300846C94 /* Maintenance.png in Resources */,
+				2A31B0181B149EA300846C94 /* Layer-3.png in Resources */,
+				2A31B0161B149EA300846C94 /* Layer-1.png in Resources */,
+				2A31B0191B149EA300846C94 /* Layer-4.png in Resources */,
+				2A31B0101B149EA300846C94 /* Schindler-7000_.png in Resources */,
+				2A31B0291B149EA300846C94 /* Back.png in Resources */,
+				2A31B0261B149EA300846C94 /* Schindler-7000.png in Resources */,
+				2AE196F01B179F7500A892A1 /* star_unfill.png in Resources */,
+				2A31B0231B149EA300846C94 /* PORT-Technology.png in Resources */,
+				2A31B0311B149EA300846C94 /* side_menu.png in Resources */,
+				2A31B0221B149EA300846C94 /* My-Favourite.png in Resources */,
+				2A31B01E1B149EA300846C94 /* Escalators-&-Moving-walks.png in Resources */,
+				2A31B02E1B149EA300846C94 /* Reference-projects-.png in Resources */,
+				2A4971F91B14D2D200BFFF61 /* black_sq.png in Resources */,
+				2A4971FE1B1503A000BFFF61 /* HomeTableCell.xib in Resources */,
+				2A0C41301B16E0780059CC02 /* tesView.xib in Resources */,
+				2A31B02D1B149EA300846C94 /* menu.png in Resources */,
+				2A31B02A1B149EA300846C94 /* bar.png in Resources */,
 				2A31AFC21B149E5900846C94 /* Images.xcassets in Resources */,
+				2A31B0141B149EA300846C94 /* Related-App.png in Resources */,
+				2A31B00B1B149EA300846C94 /* glass_city_v6_.png in Resources */,
+				2AE196EF1B179F7500A892A1 /* star_fill.png in Resources */,
+				2A31B0151B149EA300846C94 /* videos.png in Resources */,
+				2A31B02F1B149EA300846C94 /* Related-App_top.png in Resources */,
+				2A31B01B1B149EA300846C94 /* Layer-6.png in Resources */,
+				2A31B0121B149EA300846C94 /* Customer-presentations.png in Resources */,
+				2A31B0271B149EA300846C94 /* Schindler-Apps.png in Resources */,
+				2A31B0331B149EA300846C94 /* videos_top.png in Resources */,
+				2A31B0171B149EA300846C94 /* Layer-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +633,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36C2F96AFAFC9E1B8489BC06 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC8DDA265265C9DFB9E2B08 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A31AFAD1B149E5900846C94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A31AFBD1B149E5900846C94 /* ViewController.m in Sources */,
+				2A4971F71B14D11100BFFF61 /* UIImage+ImageEffects.m in Sources */,
+				2A31AFBD1B149E5900846C94 /* HomeViewController.m in Sources */,
+				2A40B13C1B1A312500366F91 /* Schindler7000ViewController.m in Sources */,
+				2A0C41491B173ED80059CC02 /* Schindler3300APViewController.m in Sources */,
+				2A40B14B1B1ABD4400366F91 /* ModernizationViewController.m in Sources */,
+				2A611FED1B15AAD00048E0A4 /* AboutSchindlerViewController.m in Sources */,
+				2A4972011B15043600BFFF61 /* HomeTableCell.m in Sources */,
+				2A40B1391B197D2300366F91 /* Schindler5500ViewController.m in Sources */,
+				2A40B14E1B1ABEEF00366F91 /* MyFavouritesViewController.m in Sources */,
+				2A40B1421B1A558000366F91 /* PortTechViewController.m in Sources */,
+				2A40B1451B1A563100366F91 /* GreenTechViewController.m in Sources */,
+				2A40B1481B1A579D00366F91 /* MaintenanceViewController.m in Sources */,
+				2A40B1511B1AC34B00366F91 /* ReferenceProjectsViewController.m in Sources */,
 				2A31AFBA1B149E5900846C94 /* AppDelegate.m in Sources */,
+				2AE196F31B182BE700A892A1 /* PageItemController.m in Sources */,
+				2A40B13F1B1A503400366F91 /* EscalatorsViewController.m in Sources */,
+				2A55888F1B160F60009539AA /* MenuView.m in Sources */,
+				2A49720A1B15907B00BFFF61 /* videoPlayViewController.m in Sources */,
 				2A31AFB71B149E5900846C94 /* main.m in Sources */,
+				2A0C41331B16E0F80059CC02 /* tesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +719,6 @@
 				2A31AFBF1B149E5900846C94 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2A31AFC31B149E5900846C94 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A31AFC41B149E5900846C94 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,6 +808,7 @@
 		};
 		2A31AFD51B149E5A00846C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B4DA3D8238906B926CFA8B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Schindler/Info.plist;
@@ -357,6 +819,7 @@
 		};
 		2A31AFD61B149E5A00846C94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD49ECBAE3982FE393E387CB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Schindler/Info.plist;
@@ -418,6 +881,7 @@
 				2A31AFD61B149E5A00846C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A31AFD71B149E5A00846C94 /* Build configuration list for PBXNativeTarget "SchindlerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +890,7 @@
 				2A31AFD91B149E5A00846C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
